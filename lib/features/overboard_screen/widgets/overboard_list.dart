@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../signin_screen/signin_screen.dart';
 
@@ -136,7 +137,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         },
                         child: Text(
                           "Skip",
-                          style: TextStyle(color: Colors.white):GoogleFonts.roboto(
+                          style: GoogleFonts.roboto(
                             textStyle: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
